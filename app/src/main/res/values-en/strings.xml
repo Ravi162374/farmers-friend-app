@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Home" translatable="false">Home</string>
+    <string name="Notes" translatable="false">Notes</string>
+    <string name="Technology" translatable="false">Technology</string>
+    <string name="Helpcenter" translatable="false">Helpcenter</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="Uploadproblem" translatable="false">UPLOAD PROBLEM</string>
+    <string name="Myproblems">MY PROBLEMS</string>
+    <string name="Crops">CROPS</string>
+    <string name="Organicfertilizers">ORGANIC FERTILIZERS</string>
+    <string name="Inorganicfertilizers">INORGANIC FERTILIZERS</string>
+    <string name="Search">SEARCH</string>
+        <!-- Crop Names -->
+        <string name="paddy_crop">PADDY CROP</string>
+        <string name="chillis">CHILLIS</string>
+        <string name="cotton">COTTON</string>
+        <string name="sugar_cane">SUGAR-CANE</string>
+        <string name="groundnut">GROUNDNUT</string>
+        <string name="ladyfinger">LADYFINGER</string>
+        <string name="mango">MANGO</string>
+
+        <!-- PADDY CROP Diseases -->
+        <string-array name="paddy_crop_diseases">
+            <item>blast</item>
+            <item>sheath Blight</item>
+            <item>brown Spot</item>
+        </string-array>
+
+        <!-- CHILLIS Diseases -->
+        <string-array name="chillis_diseases">
+            <item>anthracnose</item>
+            <item>bacterial Spot</item>
+            <item>cercospora Leaf Spot</item>
+        </string-array>
+
+        <!-- COTTON Diseases -->
+        <string-array name="cotton_diseases">
+            <item>verticillium Wilt</item>
+            <item>fusarium Wilt</item>
+            <item>boll Rot</item>
+        </string-array>
+
+        <!-- SUGAR-CANE Diseases -->
+        <string-array name="sugar_cane_diseases">
+            <item>red Rot</item>
+            <item>smut</item>
+            <item>leaf Scald</item>
+        </string-array>
+
+        <!-- GROUNDNUT Diseases -->
+        <string-array name="groundnut_diseases">
+            <item>leafSpot</item>
+            <item>early Leaf Spot</item>
+            <item>crown Rot</item>
+        </string-array>
+
+        <!-- LADYFINGER Diseases -->
+        <string-array name="ladyfinger_diseases">
+            <item>leaf Curl Virus</item>
+        </string-array>
+
+        <!-- MANGO Diseases -->
+        <string-array name="mango_diseases">
+            <item>charcoal Rot</item>
+        </string-array>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Home">హోమ్ </string>
+    <string name="Name" translatable="false">పేరు</string>
+    <string name="phonenumber" translatable="false">ఫోను నంబరు</string>
+    <string name="problem" translatable="false">సమస్య</string>
+    <string name="Signup" translatable="false">సైన్ అప్</string>
+    <string name="signin" translatable="false">సైన్ ఇన్</string>
+    <string name="Email" translatable="false">ఇమెయిల్</string>
+    <string name="Password" translatable="false">పాస్వర్డ్</string>
+    <string name="Forgotpassword" translatable="false">పాస్వర్డ్ మర్చిపోయాను</string>
+    <string name="welcome" translatable="false">రైతుల స్నేహితుడికి స్వాగతం</string>
+    <string name="Notes">నోట్ బుక్</string>
+    <string name="Technology">సాంకేతికం</string>
+    <string name="Helpcenter">సహాయ కేంద్రం</string>
+    <string name="Uploadproblem">సమస్యను అప్‌లోడ్ చేయండి</string>
+    <string name="Myproblems">సమస్యలు</string>
+    <string name="Crops" >పంటలు</string>
+    <string name="Organicfertilizers" >సేంద్రీయ ఎరువులు</string>
+    <string name="Inorganicfertilizers" >అకర్బన ఎరువులు</string>
+    <string name="Search" >వెతకండి</string>
+    <string name="paddy_crop" translatable="false">వరి పంట</string>
+    <string name="chillis" translatable="false">మిరపకాయ</string>
+    <string name="cotton" translatable="false">పత్తి</string>
+    <string name="sugar_cane" translatable="false">చెరుకుగడ</string>
+    <string name="groundnut" translatable="false">వేరుశనగ</string>
+    <string name="ladyfinger" translatable="false">బెండ కాయ</string>
+    <string name="mango" translatable="false">మామిడి</string>
+    <string name="maize" translatable="false">మొక్కజొన్న</string>
+    <string name="Cropdiseases" translatable="false">పంట వ్యాధులు</string>
+    <string name="Effectsofdisease" translatable="false">వ్యాధి యొక్క ప్రభావాలు</string>
+    <string name="Create" translatable="false">కొత్త ఫైల్</string>
+    <string name="Open" translatable="false">వోపెన్</string>
+    <string name="Save" translatable="false">సేవ్ చెయ్యండి</string>
+    <string name="Solidfertilizers" translatable="false">ఘన ఎరువులు</string>
+    <string name="Liquidfertilizers" translatable="false">ద్రవ ఎరువులు</string>
+    <string name="Sprayingtechniques" translatable="false">స్ప్రేయింగ్ టెక్నిక్స్</string>
+    <string name="Cultivatingtools" translatable="false">కల్టివేటింగ్ టూల్స్</string>
+    <string name="Broadcasting" translatable="false">ప్రసార పద్ధతి</string>
+    <string name="Placement" translatable="false">ప్లేస్‌మెంట్ పద్ధతి</string>
+    <string name="Bandplacement" translatable="false">బ్యాండ్ ప్లేస్మెంట్</string>
+    <string name="Pellet" translatable="false">గుళిక</string>
+    <string name="Stater" translatable="false">స్టేటర్</string>
+    <string name="Foliar" translatable="false">ఫోలియర్ పద్ధతి</string>
+    <string name="Fertigation" translatable="false">ఫెర్టిగేషన్</string>
+    <string name="Arial" translatable="false">ఏరియల్ స్ప్రే</string>
+    <string name="fbs" translatable="false">రైతుల లబ్ధిదారుల పథకాలు</string>
+    <string name="cs" translatable="false">కేంద్ర పథకాలు</string>
+    <string name="ss" translatable="false">రాష్ట్ర పథకాలు</string>
+    <!-- PADDY CROP Diseases -->
+    <string-array name="paddy_crop_diseases">
+        <item>అగ్గి తెగులు</item>
+        <item>కోశం ముడత</item>
+        <item>గోధుమ రంగు మచ్చ</item>
+    </string-array>
+
+    <!-- CHILLIS Diseases -->
+    <string-array name="chillis_diseases">
+        <item>ఆంత్రాక్నోస్</item>
+        <item>మచ్చ తెగులు</item>
+        <item>సెర్కోస్పోరా ఆకు మచ్చ</item>
+    </string-array>
+
+    <!-- COTTON Diseases -->
+    <string-array name="cotton_diseases">
+        <item>వెర్టిసిలియం విల్ట్</item>
+        <item>ఫ్యూసేరియం విల్ట్</item>
+        <item>కాయ తెగులు</item>
+    </string-array>
+
+    <!-- SUGAR-CANE Diseases -->
+    <string-array name="sugar_cane_diseases">
+        <item>ఎరుపు తెగులు</item>
+        <item>స్మట్</item>
+        <item>ఆకు మంట</item>
+    </string-array>
+
+    <!-- GROUNDNUT Diseases -->
+    <string-array name="groundnut_diseases">
+        <item>ఆకు మచ్చ</item>
+        <item>ప్రారంభ ఆకు మచ్చ</item>
+        <item>కిరీటం తెగులు</item>
+    </string-array>
+
+    <!-- LADYFINGER Diseases -->
+    <string-array name="ladyfinger_diseases">
+        <item>లీఫ్ కర్ల్ వైరస్</item>
+    </string-array>
+
+    <!-- MANGO Diseases -->
+    <string-array name="mango_diseases">
+        <item>బొగ్గు తెగులు</item>
+    </string-array>
+    <!-- Add more translations here -->
+</resources>

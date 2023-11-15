@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crops">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:text="@string/paddy_crop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:text="@string/chillis" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tr2">
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/f3"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cotton"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/f4"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sugar_cane"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tr3">
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/f5"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maize"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/f6"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mango"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tr4">
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/f7"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i7" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/groundnut"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:id="@+id/f8"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/ib8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/i8" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ladyfinger"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"/>
+
+            </FrameLayout>
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>

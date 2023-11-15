@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:text="@string/welcome"
+            android:textAlignment="center"
+            android:background="@drawable/placement"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:hint="@string/Email"
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLayout"
+            android:layout_below="@id/emailEditText"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/Password"
+                android:layout_below="@id/emailEditText"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+            <ImageButton
+                android:id="@+id/visibilityToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Arial"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:src="@drawable/ic_visibility_off" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordLayout"
+            android:text="@string/Signup" />
+
+        <Button
+            android:id="@+id/signinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signupButton"
+            android:text="@string/signin" />
+
+        <Button
+            android:id="@+id/forgotPasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signinButton"
+            android:text="@string/Forgotpassword" />
+
+        <Spinner
+            android:id="@+id/languageSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:entries="@array/languages"
+            android:layout_below="@id/forgotPasswordButton"
+            android:minHeight="48dp"
+            android:spinnerMode="dropdown" />
+        <ProgressBar
+            android:id="@+id/signinProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/languageSpinner"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</ScrollView>

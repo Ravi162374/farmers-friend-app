@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".solutiondecide">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnInorganicFertilizers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Inorganicfertilizers" />
+
+        <Button
+            android:id="@+id/btnOrganicFertilizers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Organicfertilizers" />
+
+        <Button
+            android:id="@+id/btnEffectsOfDiseases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Effectsofdisease" />
+
+    </LinearLayout>
+</ScrollView>

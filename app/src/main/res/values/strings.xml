@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name" translatable="false">farmerapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string-array name="languages">
+        <item>select language</item>
+        <item>English</item>
+        <item>తెలుగు</item>
+        <item>हिंदी</item>
+        <!-- Add more languages as needed -->
+    </string-array>
+    <string-array name="states">
+        <item>state schemes</item>
+        <item>తెలంగాణ</item>
+        <item>ఆంధ్రప్రదేశ్</item>
+        <item>दिल्ली</item>
+        <!-- Add more languages as needed -->
+    </string-array>
+    <string name="Name" translatable="false">Name</string>
+    <string name="phonenumber" translatable="false">phonenumber</string>
+    <string name="problem" translatable="false">Problem</string>
+    <string name="Signup" translatable="false">Sign Up</string>
+    <string name="Email" translatable="false">Email</string>
+    <string name="Password" translatable="false">Password</string>
+    <string name="signin" translatable="false">Sign In</string>
+    <string name="Forgotpassword" translatable="false">Forgot Password</string>
+    <string name="Home" translatable="false">Home</string>
+    <string name="welcome" translatable="false">WELCOME TO FARMERS FRIEND</string>
+    <string name="Notes" translatable="false">Notes</string>
+    <string name="Technology" translatable="false">Technology</string>
+    <string name="Helpcenter" translatable="false">Helpcenter</string>
+    <string name="Uploadproblem" translatable="false">UPLOAD PROBLEM</string>
+    <string name="Myproblems" translatable="false">MY PROBLEMS</string>
+    <string name="Crops" translatable="false">CROPS</string>
+    <string name="Organicfertilizers" translatable="false">ORGANIC FERTILIZERS</string>
+    <string name="Inorganicfertilizers" translatable="false">INORGANIC FERTILIZERS</string>
+    <string name="Search" translatable="false"> SEARCH</string>
+    <!-- Crop Names -->
+    <string name="paddy_crop" translatable="false">PADDY CROP</string>
+    <string name="chillis" translatable="false">CHILLIS</string>
+    <string name="maize" translatable="false">MAIZE</string>
+    <string name="cotton" translatable="false">COTTON</string>
+    <string name="sugar_cane" translatable="false">SUGAR-CANE</string>
+    <string name="groundnut" translatable="false">GROUNDNUT</string>
+    <string name="ladyfinger" translatable="false">LADYFINGER</string>
+    <string name="mango" translatable="false">MANGO</string>
+    <string name="Cropdiseases" translatable="false">CROP DISEASES</string>
+    <string name="Effectsofdisease" translatable="false">EFFECTS OF DISEASE</string>
+    <string name="Create" translatable="false">Create</string>
+    <string name="Open" translatable="false">Open</string>
+    <string name="Save" translatable="false">Save</string>
+    <string name="Solidfertilizers" translatable="false">SOLID FERTILIZERS</string>
+    <string name="Liquidfertilizers" translatable="false">LIQUID FERTILIZERS</string>
+    <string name="Sprayingtechniques" translatable="false">SPRAYING TECHNIQUES</string>
+    <string name="Cultivatingtools" translatable="false">CULTIVATING TOOLS</string>
+    <string name="Broadcasting" translatable="false">Broadcasting</string>
+    <string name="Placement" translatable="false">Placement</string>
+    <string name="Bandplacement" translatable="false">Bandplacement</string>
+    <string name="Pellet" translatable="false">Pellet</string>
+    <string name="Stater" translatable="false">Stater</string>
+    <string name="Foliar" translatable="false">Foliar</string>
+    <string name="Fertigation" translatable="false">Fertigation</string>
+    <string name="Arial" translatable="false">Arial</string>
+    <string name="fbs" translatable="false">FARMERS BENEFICIARY SCHEMES</string>
+    <string name="cs" translatable="false">CENTRAL SCHEMES</string>
+    <string name="ss" translatable="false">STATE SCHEMES</string>
+    <!-- PADDY CROP Diseases -->
+    <string-array name="paddy_crop_diseases">
+        <item>blast</item>
+        <item>sheath Blight</item>
+        <item>brown Spot</item>
+    </string-array>
+
+    <!-- CHILLIS Diseases -->
+    <string-array name="chillis_diseases">
+        <item>anthracnose</item>
+        <item>bacterial Spot</item>
+        <item>cercospora Leaf Spot</item>
+    </string-array>
+
+    <!-- COTTON Diseases -->
+    <string-array name="cotton_diseases">
+        <item>verticillium Wilt</item>
+        <item>fusarium Wilt</item>
+        <item>boll Rot</item>
+    </string-array>
+
+    <!-- SUGAR-CANE Diseases -->
+    <string-array name="sugar_cane_diseases">
+        <item>red Rot</item>
+        <item>smut</item>
+        <item>leaf Scald</item>
+    </string-array>
+
+    <!-- GROUNDNUT Diseases -->
+    <string-array name="groundnut_diseases">
+        <item>leafSpot</item>
+        <item>early Leaf Spot</item>
+        <item>crown Rot</item>
+    </string-array>
+
+    <!-- LADYFINGER Diseases -->
+    <string-array name="ladyfinger_diseases">
+        <item>leaf Curl Virus</item>
+    </string-array>
+
+    <!-- MANGO Diseases -->
+    <string-array name="mango_diseases">
+        <item>charcoal Rot</item>
+    </string-array>
+
+</resources>
